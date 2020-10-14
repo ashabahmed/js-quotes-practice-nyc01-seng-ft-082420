@@ -111,7 +111,6 @@ document.addEventListener("DOMContentLoaded", function () {
             likesText.textContent = increaseLikes + 1
             
           })
-          fetch("http://localhost:3000/likes?quoteId=" + quoteId)
         }
       })
     }
